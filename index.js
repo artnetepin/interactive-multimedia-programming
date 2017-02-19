@@ -10,10 +10,6 @@ app.get('/', function(req, res) {
   res.sendFile('index.html');
 });
 
-app.get('/labs', function(req, res) {
-  res.sendFile('labs.html');
-});
-
 // Start to listen incomig requests (start the web server)
 app.listen(app.get('port'), function() {
   console.log('Up and running in a port:', PORT);
