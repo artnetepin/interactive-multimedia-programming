@@ -4,8 +4,8 @@ var app = express();
 var PORT = process.env.PORT || 5000;
 app.set('port', PORT);
 
-app.get('/', function(request, response) {
-  response.render('pages/index');
+app.get('/', function(req, res) {
+  res.render('pages/index');
 });
 
 // Start to listen incomig requests (start the web server)
