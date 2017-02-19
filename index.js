@@ -4,10 +4,10 @@ var app = express();
 var PORT = process.env.PORT || 5000;
 app.set('port', PORT);
 
-app.set('view engine', 'html');
+app.use(express.static('pages'))
 
 app.get('/', function(req, res) {
-  res.render('pages/index.html');
+  res.sendFile('index.html');
 });
 
 // Start to listen incomig requests (start the web server)
