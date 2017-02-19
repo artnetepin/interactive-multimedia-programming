@@ -7,7 +7,7 @@ app.set('port', PORT);
 app.set('view engine', 'html');
 
 app.get('/', function(req, res) {
-  res.render('pages/index');
+  res.render('pages/index.html');
 });
 
 // Start to listen incomig requests (start the web server)
