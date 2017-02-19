@@ -11,7 +11,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/labs', function(req, res) {
-  res.sendFile('/labs.html');
+  res.sendFile('/pages/labs.html');
 });
 
 // Start to listen incomig requests (start the web server)
