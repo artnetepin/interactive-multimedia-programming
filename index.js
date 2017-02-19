@@ -5,7 +5,7 @@ var PORT = process.env.PORT || 5000;
 app.set('port', PORT);
 
 app.get('/', function(req, res) {
-  res.render('pages/index');
+  res.render('pages/index.html');
 });
 
 // Start to listen incomig requests (start the web server)
