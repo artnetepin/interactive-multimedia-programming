@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2em;
+  font-size: 1em;
+  background-color: #272b34;
+  color: #a7aebb;
+}
+
+h1, h2, h3 {
+  color: #e06c75;
+}
+
+img {
+  max-width: 80%;
+}
+
+.link {
+  text-decoration: none;
+  color: #dea43f;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #e06c75;
+}

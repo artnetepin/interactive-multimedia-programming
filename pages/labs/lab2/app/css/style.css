@@ -1,0 +1,36 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1.25em;
+  background-color: #272b34;
+  color: #a7aebb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e06c75;
+}
+
+h1 {
+  margin: 0.5em auto;
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  text-align: center;
+}
+
+.textinput {
+  width: 45%;
+  margin: 0 0.5em;
+  font-size: 1em;
+}
+
+#btn {
+  padding: 1em 1.5em;
+  vertical-align: top;
+  border: none;
+  border-radius: 20%;
+  background-color: #d19a66;
+  color: #97c378;
+}
