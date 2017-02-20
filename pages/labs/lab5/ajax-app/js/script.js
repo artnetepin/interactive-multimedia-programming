@@ -1,5 +1,4 @@
 function load() {
-  $('.content').html("");
   $.ajax({
     type: "POST",
     url: "https://imp-portfolio-demonstration.herokuapp.com/json/persons.jsonp?callback=parseResponse",

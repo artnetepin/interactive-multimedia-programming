@@ -11,16 +11,28 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <nav>
+  <nav>
+    <ul class="desktop-menu">
+      <li class="desktop-menu-item">Artem Netepin</li>
+      <li class="desktop-menu-item active"><a class="desktop-menu-item-link" href="index.html">Home</a></li>
+      <li class="desktop-menu-item"><a class="desktop-menu-item-link" href="labs.html">Labs</a></li>
+      <li class="desktop-menu-item"><a class="desktop-menu-item-link" href="info.html">About</a></li>
+    </ul>
 
-    </nav>
+    <div class="mobile-menu-toggle">
+      <span id="menu-open">MENU</span>
+      <span id="menu-close">MENU</span>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
     <main>
       <h1 class="main-heading">Study portfolio</h1>
       <p class="intro">
         Hello! This is my study portfolio made for OAMK Interactive Multimedia Programming course. Here are some techniques, frameworks and services used during this course (including this page):
       </p>
-      <ul>
+      <ul class="list">
         <li>HTML5, CSS3 and JavaScript as main focus languages</li>
         <li>Bootstrap CSS framework and jQuery library</li>
         <li>a little bit of AJAX/REST APIs</li>
@@ -31,7 +43,7 @@
         <li>SASS instead of pure CSS for portfolio website itself</li>
       </ul>
       <p class="intro">
-        The list of labs can be found <a href="labs.html">here</a>. Also there is some info about me.
+        The list of labs can be found from the menu above. Also there is some info about me.
       </p>
     </main>
   </div>
