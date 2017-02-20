@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,18 @@
   <title>Lab4 canvas</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body onload="init()">
   <canvas id="canvas" width="600" height="600"></canvas>
 
-  <br/><br/>
-
-  Line width : <select id="width">
+  <br/><br/> Line width : <select id="width">
       <option value="1">1</option>
       <option value="3">3</option>
       <option value="5">5</option>
       <option value="7">7</option>
       <option value="9" selected="selected">9</option>
       <option value="11">11</option>
-  </select>
-
-  Color : <select id="color">
+  </select> Color : <select id="color">
       <option value="black">black</option>
       <option value="blue" selected="selected">blue</option>
       <option value="red">red</option>
@@ -32,6 +30,12 @@
 
   <button onclick="clearArea();return false;">Clear</button>
 
+  <hr/>
+  <p>
+    Here's the <a href="../game/index.html">link</a> to the Canvas Game assignment.
+  </p>
+
   <script type="text/javascript" src="scripts/main.js"></script>
 </body>
+
 </html>
