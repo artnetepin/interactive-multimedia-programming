@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>List of labs by Artem Netepin</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/main.min.css">
 </head>
@@ -14,29 +15,39 @@
   <nav>
     <ul class="desktop-menu">
       <li class="desktop-menu-item">Artem Netepin</li>
-      <li class="desktop-menu-item active"><a class="desktop-menu-item-link" href="index.html">Home</a></li>
-      <li class="desktop-menu-item"><a class="desktop-menu-item-link" href="labs.html">Labs</a></li>
-      <li class="desktop-menu-item"><a class="desktop-menu-item-link" href="info.html">About</a></li>
+      <li class="desktop-menu-item"><a class="link" href="index.html">Home</a></li>
+      <li class="desktop-menu-item active"><a class="link" href="labs.html">Labs</a></li>
+      <li class="desktop-menu-item"><a class="link" href="info.html">About</a></li>
+    </ul>
+
+    <div class="mobile-menu-toggle">
+      <span id="menu-open">MENU <i class="fa fa-bars" aria-hidden="true"></i></span>
+      <span id="menu-close">CLOSE <i class="fa fa-close" aria-hidden="true"></i></span>
+    </div>
+
+    <ul class="mobile-menu">
+      <li class="mobile-menu-item"><a class="link" href="index.html">Home</a></li>
+      <li class="mobile-menu-item"><a class="link" href="labs.html">Labs</a></li>
+      <li class="mobile-menu-item"><a class="link" href="info.html">About</a></li>
     </ul>
   </nav>
 
   <div class="container-fluid">
     <main>
-      <h1>hello</h1>
-      <ul>
-        <li>
-          <a href="labs/lab1">lab1</a>
-          <a href="labs/lab2">lab2</a>
-          <a href="labs/lab3">lab3</a>
-          <a href="labs/lab4/game">lab4</a>
-          <a href="labs/lab5">lab5</a>
-          <a href="labs/lab6">lab6</a>
-        </li>
+      <h1 class="main-heading">List of assignments completed during the course</h1>
+      <ul class="list">
+        <li><a class="link" href="labs/lab1">Lab1. Basics, basics, basics</a></li>
+        <li><a class="link" href="labs/lab2">Lab2. Responsive Web-desgn</a></li>
+        <li><a class="link" href="labs/lab3">Lab3. JS APIs</a></li>
+        <li><a class="link" href="labs/lab4/game">Lab4. Canvas</a></li>
+        <li><a class="link" href="labs/lab5">Lab5. jQuery/AJAX</a></li>
+        <li><a class="link" href="labs/lab6">Lab6. Flickr photo wall</a></li>
       </ul>
     </main>
   </div>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>

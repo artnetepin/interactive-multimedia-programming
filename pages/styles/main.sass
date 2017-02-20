@@ -15,8 +15,15 @@ h1, h2, h3
 
 ul
   list-style-type: circle
+  padding-left: 1.3em
 
 /* MENU */
+
+.mobile-menu
+  display: none
+
+.mobile-menu-toggle
+  display: none
 
 .active
   margin-top: 0.1em
@@ -29,7 +36,6 @@ ul
 .desktop-menu
   display: flex
   justify-content: center
-  padding: 0
   list-style-type: none
   text-transform: uppercase
   font-family: 'Pangolin', cursive
@@ -40,16 +46,43 @@ ul
     padding: 1em 2em
     cursor: default
 
-    .desktop-menu-item-link
-      color: #aab1be
+/* INDEX */
 
-    .desktop-menu-item-link:hover
-      text-decoration: none
-      cursor: pointer
-      color: #de6b74
+.main-heading
+  margin-top: 0
+
+.link
+  color: #aab1be
+
+.link:hover
+  text-decoration: none
+  cursor: pointer
+  color: #de6b74
 
 /* MEDIA QUERIES */
 
-@media (max-width: 768px)
+@media (max-width: 600px)
+  .main-heading
+    font-size: 1.5em
+
+  /* MENU */
+
   .desktop-menu
     display: none
+
+  .mobile-menu-toggle
+    display: flex
+    justify-content: flex-end
+    padding: 1em
+
+    #menu-close
+      display: none
+
+  .mobile-menu
+    list-style-type: none
+    padding-left: 1em
+    text-transform: uppercase
+    text-align: center
+
+    .mobile-menu-item
+      padding-bottom: 1em
