@@ -1,0 +1,12 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 80%;
+}
+
+#canvas {
+  background: #ccc;
+}

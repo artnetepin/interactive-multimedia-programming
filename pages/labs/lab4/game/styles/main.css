@@ -1,0 +1,12 @@
+.container {
+  padding: 2em 7em;
+}
+
+#canvas {
+  background: #dea43f;
+  border: 2px solid #333;
+}
+
+h3 {
+  color: #454545;
+}

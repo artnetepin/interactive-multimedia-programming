@@ -1,0 +1,30 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5%;
+  font-size: 1.25em;
+  background-color: #272b34;
+  color: #a7aebb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e06c75;
+}
+
+.label {
+  margin-right: 2em;
+}
+
+.textinput {
+  margin-right: 2em;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+#btn {
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 1.5em;
+  background-color: #d19a66;
+  color: #97c378;
+}

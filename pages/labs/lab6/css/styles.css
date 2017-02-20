@@ -1,0 +1,29 @@
+body {
+  padding: 0.5em;
+  background: #272b34;
+  color: #000;
+}
+
+.row {
+  text-align: center;
+}
+
+.cell {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  border: 1px solid #e06c75;
+}
+
+.input-box {
+  margin: 1em 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: auto;
+  display: inline-block;
+}
