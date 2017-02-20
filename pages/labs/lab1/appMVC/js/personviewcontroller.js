@@ -3,7 +3,7 @@ var viewController = new ViewController();
 function ViewController() {
   this.personModel = new PersonModel();
 
-  this.updateView = function(){
+  this.updateView = function() {
     var results = document.getElementById("list");
     var onePerson;
 
